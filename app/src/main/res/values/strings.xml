@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SE2 Einzelbeispiel</string>
+    <string name="matNrTxt">Gib deine Matrikelnummer ein:</string>
+    <string name="server">Antwort vom Server</string>
+    <string name="matNrHint">Matrikelnummer</string>
+    <string name="sendBtnTxt">Abschicken</string>
 </resources>
