@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText matNum;
     private TextView responseData;
+    private TextView calcData;
 
     private Observer observer = new Observer<String>() {
         @Override
@@ -46,10 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
         matNum = findViewById(R.id.editMatNr);
         responseData = findViewById(R.id.responseData);
-
-        // TODO: remove test string
-        matNum.setText("11735897");
-
+        calcData = findViewById(R.id.calcText);
     }
 
     public void sendData(View view) {
@@ -62,7 +60,20 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public void calc(View view){
+        char[] arr = String.valueOf(matNum.getText()).toCharArray();
 
+        int sum = 0;
 
+        for (int i = 0; i < arr.length; i++) {
+            if(i % 2 == 0) {
+                sum += (int)arr[i] - 48;
+            } else {
+                sum -= (int)arr[i] - 48;
+            }
+        }
+
+        calcData.setText(String.valueOf(sum));
+    }
 
 }    

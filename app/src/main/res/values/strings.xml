@@ -1,8 +1,11 @@
 <resources>
     <string name="app_name">SE2 Einzelbeispiel</string>
     <string name="matNrTxt">Gib deine Matrikelnummer ein:</string>
-    <string name="server">Antwort vom Server</string>
+    <string name="server">…</string>
     <string name="matNrHint">Matrikelnummer</string>
     <string name="sendBtnTxt">Abschicken</string>
     <string name="noMatNr">Bitte geben sie eine Matrikelnummer ein!</string>
+    <string name="calcBtnText">Berechnen</string>
+    <string name="calcText">…</string>
+    <string name="calcTextInfo">Berechne die alternierende Quersumme:</string>
 </resources>
