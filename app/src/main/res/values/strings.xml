@@ -4,4 +4,5 @@
     <string name="server">Antwort vom Server</string>
     <string name="matNrHint">Matrikelnummer</string>
     <string name="sendBtnTxt">Abschicken</string>
+    <string name="noMatNr">Bitte geben sie eine Matrikelnummer ein!</string>
 </resources>
