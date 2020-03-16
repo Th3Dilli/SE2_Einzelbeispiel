@@ -72,8 +72,12 @@ public class MainActivity extends AppCompatActivity {
                 sum -= (int)arr[i] - 48;
             }
         }
+        String text = "Die alternierende Quersumme ist ungerade.";
+        if(sum % 2 == 0) {
+            text = "Die alternierende Quersumme ist gerade.";
+        }
 
-        calcData.setText(String.valueOf(sum));
+        calcData.setText(text);
     }
 
 }    
